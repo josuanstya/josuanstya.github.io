@@ -9,13 +9,14 @@ html {
 }
 
 body {
+  margin-top: 40px;
   margin-bottom: 100px;
 }
 
 /* jumbotron */
 .jumbotron {
-  min-height: 700px;
-  padding: 80px 40px;
+  /* min-height: 700px; */
+  /* padding: 80px 40px; */
   background-color: #d90429;
   background-image: linear-gradient(to bottom right, #d90429, purple);
   /* min-height: 650px; */
@@ -23,10 +24,24 @@ body {
 
 .jumbotron h1 {
   color: white;
-  margin-top: 13%;
+}
+
+.jumbotron #h1-home {
+  margin-top: 5%;
   margin-bottom: auto;
 }
 
+.jumbotron #h1-about {
+  margin-top: 3%;
+}
+
+.jumbotron h4 {
+  color: yellow;
+}
+
+.jumbotron img {
+  width: 30%;
+}
 
 /* skill */
 #skill .row img {
@@ -51,6 +66,9 @@ body {
   margin-top: 80px;
 }
 
+#achievement .row .col-sm-6{
+  margin-top: 30px;
+}
 /* portofolio */
 .content-box {
   margin-top: 80px;
@@ -78,3 +96,19 @@ footer p {
 .fas {
   color: salmon;
 }
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }

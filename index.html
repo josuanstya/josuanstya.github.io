@@ -27,14 +27,14 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 3</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
         </ul>
         </div>
@@ -44,8 +44,8 @@
 
     <!-- jumbotron -->
     <div class="jumbotron text-center">
-      <h1>Welcome to My Portofolio <br>I am a Junior Network Engineer.</h1><br>
-      <button type="button" class="btn btn-dark btn-lg" id="jumbotron-btn">TELL ME MORE</button>
+      <h1 class="display-4 text-xs-center p-b-1 m-b-1" id="h1-home" style="font-size:5vw;">Welcome to My Portofolio <br>I am a Junior Network Engineer.</h1><br>
+      <button type="button" class="btn btn-dark btn-lg" id="jumbotron-btn" style="font-size:2vw;">TELL ME MORE</button>
     </div>
     <!-- jumbotron end -->
 
@@ -196,7 +196,7 @@
       const btn = document.getElementById('jumbotron-btn');
 
       btn.addEventListener('click', () => window.scrollTo({
-        top: 750,
+        top: 450,
         behavior: 'smooth',
       }));
     </script>
